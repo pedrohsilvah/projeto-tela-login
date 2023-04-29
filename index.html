@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="cadastro.php" method="post" autocomplete="off">
+                <div><label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" placeholder="E-mail" required autocomplete="email">
+                </div>
+                <div>
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" required minlenght="8" maxlength="20">
+                </div>
+                <div><input class="botao" type="submit" value="Enviar"></div>
+                <div id="a">
+                    <a class="botao" href="senha.html">Esqueci a senha</a>
+                </div>
+            </form>
+        </section>
+        <section id="img">
+        </section>
+    </main>
+</body>
+</html>
