@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+section#img {
+    background-position: bottom left;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+p {
+    font-size: 17px;
+}
+
+input {
+    padding: 6px;
+}
+
+a {
+    padding: 6px;
+}
